@@ -12,7 +12,10 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       title: 'MyShop',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+          primarySwatch: Colors.purple,
+          accentColor: Colors.deepOrange,
+          fontFamily: 'Lato'),
       debugShowCheckedModeBanner: false,
       home: ProductsOverviewScreen(),
     );
